@@ -13,7 +13,8 @@ print " @@!  !@@ @@!  @@@ @@!  @@@ @@!      @@!           @@!  @@@ @@!  @@@ @@! 
 print " @!@@!@!  @!@!@!@! @!@!@!@  @!!      @!!!:!        @!@!@!@  @!@!!@!  @!@  !@!   @!!   @!!!:!  \n";
 print " !!: :!!  !!:  !!! !!:  !!! !!:      !!:           !!:  !!! !!: :!!  !!:  !!!   !!:   !!:     \n";
 print "  :   :::  :   : : :: : ::  : ::.: : : :: :::      :: : ::   :   : :  :.:: :     :    : :: :::\n";
-print "                                                                                              \n";
+# This Perl script reads an input file specified by the user, processes each line to remove leading and trailing whitespace,
+# and writes the cleaned lines to an output file. The script handles file opening and closing, and reports errors if the input file cannot be read or the output file cannot be written.print "                                                                                              \n";
 
 print "\033[1;31m          ======================================================\n";
 print "\033[1;37m               Usage: perl $0 Email wordlist.txt\n\n\n\n\n\n\n\n\n";
